@@ -402,15 +402,5 @@ int main(int argc, char const *argv[])
   //   break;
   // }
 
-
-  int students;
-  cout << "Enter number of students: ";
-  cin >> students;
-
-  int groups = students / 24;
-  int x = students - (groups * 24);
-  int freeComp = 24 - x;
-  cout << "Free computers: " << freeComp;
-
   return 0;
 }
