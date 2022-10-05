@@ -225,27 +225,20 @@ int main(int argc, char const *argv[])
   // int num;
   // cout << "Enter number from -5 till 5: ";
   // cin >> num;
-  // switch (num)
-  // {
-  // case -5:
-  // case -4:
-  // case -3:
-  // case -2:
-  // case -1:
-  //   cout << "Negative\n";
-  //   break;
-  // case 0:
-  // case 1:
-  // case 2:
-  // case 3:
-  // case 4:
-  // case 5:
-  //   cout << "Positive\n";
-  //   break;
-  
-  // default:
-  //   cout << "You should to write number from -5 till 5!"
-  //   break;
+  // switch(num > 0) {
+  //   case 1 :
+  //     cout << "Positive" << endl;
+  //     break;
+  //   case 0 :
+  //       switch(num < 0) {
+  //         case 1 :
+  //           cout << "Negative" << endl;
+  //           break;
+  //         case 0 :
+  //           cout << "Zero" << endl;
+  //           break;
+  //       }
+  //     break;
   // }
 
   // Problem 4
